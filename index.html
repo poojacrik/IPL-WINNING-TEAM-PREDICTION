@@ -1,0 +1,53 @@
+<html>
+    <head><title>IPL WINNING TEAM Prediction</title></head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#slide").slideToggle("slow");
+            });
+        });
+    </script>
+    <style>
+        #d {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            color: rgba(183, 13, 30, 0.651);
+        }
+        #slide{
+            display: none;
+            background-image: linear-gradient(rgb(44, 32, 28), rgb(204, 218, 204));
+        }
+        a {
+            color: aliceblue;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        button {
+            padding: 10px;
+            border-radius: 10px;
+            border-color: rgb(0, 0, 0);
+            width: 80px;
+            margin-top: 0%;
+            background-color: rgb(183, 204, 192);
+        }
+        /*
+        body {
+            background-image: url("ipl.jpg");
+            background-attachment: fixed;
+        }*/
+    </style>
+    <body>
+        <h3 id="d">Welcome to IPL Winning Team Prediction</h3>
+        <button>menu</button>
+        <div id="slide">
+            <br>
+            <a href="index.html">HOME</a><br><br>
+            <a href="#">IPL</a><br><br>
+            <a href="#">PREDICT</a><br><br>
+            <a href="#">CONTACT</a><br><br>
+        </div>
+    </body>
+</html>
